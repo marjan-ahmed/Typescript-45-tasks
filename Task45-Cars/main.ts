@@ -1,7 +1,7 @@
 function make_car(manufacturer: string, model: string, ...options: [string, any][]): Object {
-    let car = { manufacturer, model };
-    
-    options.forEach(([key, value]) => car[key] = value);
+    let car = { manufacturer, model};
+
+    options.forEach(([key, value]) => car.model = value);
     return car;
 }
 
