@@ -1,4 +1,4 @@
-let magicians: string[] = ["Doanld", "Rowan", "Nerles"];
+let magicians: string[] = ["Doanld", "Rowan", "Nerles"]; /// An array of the magicians
 
 function show_magicians(magicians: string[]) {
     magicians.forEach(magician => {
